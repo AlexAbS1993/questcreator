@@ -1,0 +1,16 @@
+.ModalContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(150, 94, 94, 0.774);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.Modal {
+    width: 40%;
+    height: 60%;
+}

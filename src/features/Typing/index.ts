@@ -1,0 +1,1 @@
+export { $TypingVariantField, setTyping, resetTyping } from './model'

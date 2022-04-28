@@ -1,0 +1,47 @@
+.Creator {
+    width: 98vw;
+    height: 98vh;
+    border: 1px green solid;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 15% 82%;
+    grid-template-rows: 95%;
+    gap: 10px;
+}
+
+.ListContainer {
+    border: 3px green solid;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.WorkplaceContainer {
+    border: 3px green solid;
+    border-radius: 10px;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.NodeListContainer {
+    width: 100%;
+    height: inherit;
+    display: grid;
+    padding-top: 5px;
+    grid-template-rows: 93% 5%;
+    gap: 5px;
+}
+
+.NodeListSection {
+    overflow-y: auto;
+}
+
+.IdContainer {
+    height: 35px;
+}
+
+.Instruments {
+    border: 1px solid black;
+}

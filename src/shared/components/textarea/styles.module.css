@@ -1,0 +1,11 @@
+.Textarea {
+    padding: 15px;
+    font-size: 16px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+

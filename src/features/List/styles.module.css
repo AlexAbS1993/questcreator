@@ -1,0 +1,32 @@
+.IdActionsContainer {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    gap: 5px;
+    grid-auto-flow: column;
+}
+
+.IdActionButtonContainer{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+.IdActionButtonContainer:hover {
+    background-color: rgb(32, 197, 60);
+}
+
+.InstrumentsContainer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-auto-flow: column;
+    gap: 5%;
+    height: 100%;
+    width: 100%;
+}

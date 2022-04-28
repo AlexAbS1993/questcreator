@@ -1,0 +1,32 @@
+.VariantContainer {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 80% 20%;
+}
+
+.VariantActions {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    justify-items: center;
+    align-items: center;
+}
+
+.VariantChangingBackground {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.514);
+    left: 0;
+    top: 0;
+}
+
+.VariantWrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.VariantWrapperActive {
+    z-index: 10;
+    position: relative;
+}

@@ -1,0 +1,27 @@
+.NodeListElement {
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto 3fr;
+    background-color:  rgb(44, 182, 44);
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.Id {
+    font-size: 16px;
+    padding-right: 15px;
+    text-align: right;
+    display: grid;
+    align-items: center;
+}
+
+
+.NodeListElement__active__new {
+    background-color: rgb(103, 121, 103);
+}
+
+.NodeListElement__active {
+    background-color: rgb(32, 133, 32);
+}
+
+
